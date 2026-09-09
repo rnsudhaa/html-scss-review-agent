@@ -1,0 +1,20 @@
+<article class="product-card" aria-labelledby="product-card-title">
+  <header class="product-card__header">
+    <h2 id="product-card-title" class="product-card__title">Featured Card</h2>
+    <p class="product-card__summary">Quick summary</p>
+  </header>
+
+  <img
+    class="product-card__image"
+    src="/images/card-hero-800.jpg"
+    srcset="/images/card-hero-400.jpg 400w, /images/card-hero-800.jpg 800w"
+    sizes="(max-width: 48rem) 100vw, 28rem"
+    alt="Front view of the featured product card"
+  >
+
+  <form class="product-card__form" action="#" method="post">
+    <label for="email" class="product-card__label">Email</label>
+    <input id="email" name="email" type="email" required>
+    <button type="submit" class="product-card__action">Buy now</button>
+  </form>
+</article>
