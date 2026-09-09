@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "github.copilot",
+    "github.copilot-chat",
+    "stylelint.vscode-stylelint",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "syler.sass-indented"
+  ]
+}
