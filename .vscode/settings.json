@@ -1,0 +1,14 @@
+{
+  "files.associations": {
+    "*.prompt.md": "markdown",
+    "*.chatmode.md": "markdown"
+  },
+  "github.copilot.chat.codeGeneration.useInstructionFiles": true,
+  "chat.promptFiles": true,
+  "chat.promptFilesLocations": {
+    ".github/prompts": true
+  },
+  "chat.modeFilesLocations": {
+    ".github/chatmodes": true
+  }
+}
