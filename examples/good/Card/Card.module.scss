@@ -1,0 +1,25 @@
+@use 'styles/tokens' as *;
+
+.card {
+  composes: surface from './card-base.module.scss';
+  display: grid;
+  gap: $space-4;
+
+  &--featured {
+    border-color: $color-accent;
+  }
+}
+
+.action {
+  inline-size: fit-content;
+
+  &:focus-visible {
+    outline: 2px solid $color-focus;
+    outline-offset: 2px;
+  }
+}
+
+.form,
+.list {
+  margin: 0;
+}

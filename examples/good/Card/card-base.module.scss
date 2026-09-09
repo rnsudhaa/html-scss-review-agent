@@ -1,0 +1,8 @@
+@use 'styles/tokens' as *;
+
+.surface {
+  border: 1px solid $color-border;
+  border-radius: $radius-3;
+  padding: $space-4;
+  background: $color-surface;
+}
