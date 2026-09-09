@@ -1,10 +1,23 @@
-# Examples
+# Examples for Few-Shot Grounding
 
-These React examples show the default repository stack: TypeScript components plus colocated SCSS modules.
+This folder contains intentionally flawed and corrected HTML/SCSS card component examples to ground review behavior.
 
-| Example | Files | Highlights |
-| --- | --- | --- |
-| Bad Card | `examples/bad/Card/Card.tsx`, `examples/bad/Card/Card.module.scss` | Violates `REACT-SEM-001`, `REACT-A11Y-003`, `REACT-A11Y-004`, `REACT-KEY-001`, `REACT-STYLE-001`, `SCSSR-ROOT-001`, `SCSSR-TOKEN-001`, `SCSSR-NEST-001` |
-| Good Card | `examples/good/Card/Card.tsx`, `examples/good/Card/Card.module.scss`, `examples/good/Card/index.ts` | Demonstrates `REACT-JSX-002`, `REACT-VARIANT-001`, `REACT-TOKEN-001`, `SCSSR-ROOT-001`, `SCSSR-COMPOSES-001` |
+## Files
+- `examples/bad/card.html`
+- `examples/bad/card.scss`
+- `examples/good/card.html`
+- `examples/good/card.scss`
 
-Use these examples to ground reviews from `/review-react-component`, `/jsx-a11y-audit`, and `/review-css-modules`.
+## What the bad example demonstrates
+- Missing semantic structure and heading order issues (`HTML-SEM-001`, `HTML-SEM-002`, `HTML-SEM-006`)
+- Clickable non-button element and weak form semantics (`HTML-SEM-003`, `HTML-SEM-005`, `A11Y-004`)
+- Missing image `alt` text (`A11Y-001`)
+- Deep SCSS nesting and duplicated style values (`SCSS-NEST-001`, `DUP-TOKEN-002`)
+- `!important` usage and missing visible focus style (`MAINT-IMP-001`, `A11Y-003`)
+
+## What the good example demonstrates
+- Semantic component structure and valid form labeling (`HTML-SEM-001`, `HTML-SEM-005`)
+- Responsive image usage with `srcset` and `sizes` (`UI-IMG-001`, `RESP-005`)
+- Tokenized spacing/radius/shadow and reusable placeholder style (`SCSS-TOKEN-001`, `SCSS-PLACE-001`)
+- Shallow BEM selectors (`REUSE-BEM-001`, `REUSE-SEL-001`)
+- Proper interactive state styling (`UI-STATE-001`, `A11Y-003`)
