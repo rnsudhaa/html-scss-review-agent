@@ -1,0 +1,24 @@
+.wrapper {
+  background: #ffffff !important;
+  padding: 24px;
+  color: #222222;
+
+  .body {
+    .actions {
+      .icon {
+        span {
+          color: #ff0080;
+        }
+      }
+    }
+  }
+}
+
+.action {
+  background: #ff0080;
+  color: #ffffff;
+}
+
+.list {
+  margin: 0 0 18px 12px;
+}
