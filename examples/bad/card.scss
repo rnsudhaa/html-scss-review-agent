@@ -1,0 +1,33 @@
+.card {
+  width: 420px;
+  height: 360px;
+  padding: 16px;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+
+  .header {
+    .meta {
+      .title {
+        .text {
+          color: #1f2937;
+        }
+      }
+    }
+  }
+
+  .action {
+    background: #2563eb;
+    color: #ffffff !important;
+  }
+
+  .action:focus {
+    outline: none;
+  }
+}
+
+.panel {
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
